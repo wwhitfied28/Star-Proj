@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>star_ProjA</title>
+
+    <script src="sketch.js"></script>
+    <script src="logo.js"></script>
+    <script src="stuff.js"></script> 
+    <script src="line.js"></script>	
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  <input type="text" id="tex1" value="8,100,16,20" onmouseout="newStar()">
+  <body id="bod1">
+  
+  <canvas id="can1" width="800" height="500" >A CANVAS</canvas>
+ 
+  <input type="button" id="but1" value="click to run" onclick="start()">
+  <input type="button" id="but2" value="clear Canvas" onclick="clear_Can()">
+  <input type="button" id="but3" value="lines" onclick="lines()">
+  <input type="button" id="but4" value="lineAr" onclick="lineAr()">
+  <input type="button" id="but5" value="lineDesign" onclick="lineDesign()">
+</body>
+
+<script>
+let t;let str; let l;let tur=new logo(300,300,0,"can1");//global variables
+let strAr=[12,200,10,50];
+t=new logo(300,100,0,"can1");
+let x=[];let y=[];let lAr=new line(0,0,"can1")
+
+//let str=document.getElementById("tex1").value; 
+// strAr=str.split(',');
+   /*document.getElementById("inp1").addEventListener("keyup", func2);
+ */
+</script>
+ 
+
+</html>
